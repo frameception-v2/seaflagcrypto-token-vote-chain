@@ -5,11 +5,13 @@ export async function GET() {
 
   const config = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-      payload: "eyJkb21haW4iOiJmcmFtZXMtdjIudmVyY2VsLmFwcCJ9",
-      signature:
-        "MHhiNDIwMzQ1MGZkNzgzYTExZjRiOTllZTFlYjA3NmMwOTdjM2JkOTY1NGM2ODZjYjkyZTAyMzk2Y2Q0YjU2MWY1MjY5NjI5ZGQ5NTliYjU0YzEwOGI4OGVmNjdjMTVlZTdjZDc2YTRiMGU5NzkzNzA3YzkxYzFkOWFjNTg0YmQzNjFi",
+      message: {
+        domain: "seaflagcrypto-token-vote-chain.vercel.app",
+        timestamp: 1738784294,
+        expirationTime: 1746560294
+      },
+      signature: "f78ef11186cb99ee5c01d77efa845a67cf03177626830d44fc7500ec47fa96001b791cd6f7636550789d8b25564336a00df1ca21385c920b6410bfd7e9a691541b",
+      signingKey: "05188397922a3fdee46560b74d10ad37d5b68b195c21bfc4cb4b016a2b2290f7"
     },
     frame: {
       version: "1",
